@@ -1,0 +1,42 @@
+
+body{
+    background-color: rgb(183, 239, 220);
+}
+.price-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.cards{
+    max-width: 400px;
+    flex: 1;
+    margin-bottom: 2rem;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Sono', sans-serif;
+    background-color: rgb(210, 200, 200);
+   
+}
+ul {
+    list-style-type: none;
+    padding-left: 1px;
+}
+.price-title{
+    font-weight: bold;
+    font-size: x-large;
+}
+.price-plan{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.my-button {
+    background-color: greenyellow;
+    color: rgb(106, 94, 94);
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
